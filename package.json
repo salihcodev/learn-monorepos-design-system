@@ -1,0 +1,20 @@
+{
+  "name": "monorepos-design-system",
+  "version": "0.0.0",
+  "description": "Try to build a monorepo via yarn workspaces.",
+  "main": "index.js",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "lerna run test",
+    "new-version": "lerna version"
+  },
+  "repository": "https://github.com/salihcodev/monorepos-design-system",
+  "author": "@salihcodev",
+  "license": "yes",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}

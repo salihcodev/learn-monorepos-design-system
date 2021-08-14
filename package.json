@@ -10,7 +10,8 @@
     "test": "lerna run test",
     "test:bkgA": "lerna run test --scope={@monorepo/pkg_a}",
     "new-version": "lerna version",
-    "publish": "lerna publish"
+    "publish": "lerna publish",
+    "commit": "cz"
   },
   "repository": "https://github.com/salihcodev/monorepos-design-system",
   "author": "@salihcodev",

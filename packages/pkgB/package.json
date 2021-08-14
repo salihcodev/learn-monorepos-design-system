@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "main": "index.js",
   "license": "MIT",
+  "type": "module",
   "scripts": {
     "test": "echo $npm_package_version"
   }

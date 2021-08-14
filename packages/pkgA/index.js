@@ -1,2 +1,3 @@
-console.log(`test#1`);
-console.log(`test#2`);
+import { testFunc } from '@monorepo/pkg_b';
+
+console.log(testFunc(5, 6, 10));

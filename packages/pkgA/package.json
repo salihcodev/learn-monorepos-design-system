@@ -3,7 +3,11 @@
   "version": "1.0.2",
   "main": "index.js",
   "license": "MIT",
+  "type": "module",
   "scripts": {
     "test": "echo $npm_package_version"
+  },
+  "dependencies": {
+    "@monorepo/pkg_b": "^1.0.1"
   }
 }

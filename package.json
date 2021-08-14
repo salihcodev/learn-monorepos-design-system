@@ -8,8 +8,9 @@
   ],
   "scripts": {
     "test": "lerna run test",
+    "test:bkgA": "lerna run test --scope={@monorepo/pkg_a}",
     "new-version": "lerna version",
-    "new-release": "lerna publish"
+    "publish": "lerna publish"
   },
   "repository": "https://github.com/salihcodev/monorepos-design-system",
   "author": "@salihcodev",

@@ -1,7 +1,7 @@
 {
   "name": "monorepos-design-system",
   "version": "0.0.0",
-  "description": "Try to build a monorepo via yarn workspaces.",
+  "description": "Try to build a monorepo via yarn workspaces << test the lerna versioning >>",
   "main": "index.js",
   "workspaces": [
     "packages/*"
